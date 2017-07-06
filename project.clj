@@ -4,4 +4,6 @@
   :main ^:skip-aot gorilla-test.core
   :target-path "target/%s"
   :plugins [[lein-gorilla "0.4.0"]]
-  :profiles {:uberjar {:aot :all}})
+  :profiles {
+              :uberjar {:aot :all}}
+  :min-lein-version "2.0.0")
